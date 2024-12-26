@@ -1,0 +1,15 @@
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.obj
+*.ilk
+*.log
+*.pch
+*.pdb
+*.idb
+*.ipdb
+*.tlog
+.vs/
+.vscode/
+*.VC.db
