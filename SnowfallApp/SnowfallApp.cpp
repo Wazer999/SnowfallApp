@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2024 Wazer999
+// Copyright (c) 2024 Wazer999
 // Licensed under the MIT License. See LICENSE file in the project root for full license information.
 
 #include <windows.h>
@@ -190,7 +190,7 @@ void ConsoleClient() {
     wchar_t buff_key = _getwch();
     if (buff_key == '1') {
         // English interface
-        MessageBox(nullptr, L"It may work unstably in fullscreen applications.\nBefore launching games in fullscreen resolution, it is recommended to turn off the snowflakes.\nTry turning them on after launching the game, preferably after opening the game window.", L"Информация", MB_OK);
+        MessageBox(nullptr, L"It may work unstably in fullscreen applications.\nMore details at the link: https://github.com/Wazer999/SnowfallApp/blob/main/README.md", L"Информация", MB_OK);
         while (true) {
             system("cls");
             std::wcout << L"1 - Enable/Disable snowflakes\n"
@@ -271,7 +271,7 @@ void ConsoleClient() {
     }
     else if (buff_key == '2') {
         // Russian interface
-        MessageBox(nullptr, L"Может работать нестабильно в полноэкранных приложениях.\nПеред запуском игр в полноэкранном разрешении, рекомендуется выключить снежинки.\nПопробуйте включить их после запуска игры, желательно открыв окно игры.", L"Информация", MB_OK);
+        MessageBox(nullptr, L"Может работать нестабильно в полноэкранных приложениях.\nПодробнее по ссылке: https://github.com/Wazer999/SnowfallApp/blob/main/README.md", L"Информация", MB_OK);
         while (true)
         {
             system("cls");
